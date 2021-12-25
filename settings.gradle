@@ -13,7 +13,17 @@ rootProject.name = "KennieAndroidProject"
 include ':app_example'
 
 //************************公共库 目录************************
+include ':i18n'
+include ':res'
 include ':library'
 
 
+
+// **************************************** ZOLD ***************************************
+
+//************************通知模块 功能项目 ************************
+include ':app_example_notification'
+project(':app_example_notification').projectDir = new File('ZOLD/app_example_notification')
+include ':library_notification'
+project(':library_notification').projectDir = new File('ZOLD/library_notification')
 
