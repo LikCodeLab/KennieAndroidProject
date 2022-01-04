@@ -14,7 +14,7 @@ import com.kennie.base.project.action.IHandlerAction;
 /**
  * 所有Activity的基类
  */
-public abstract class BaseActivity extends AppCompatActivity implements IActivityAction, IHandlerAction {
+public abstract class AbstractActivity extends AppCompatActivity implements IActivityAction, IHandlerAction {
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

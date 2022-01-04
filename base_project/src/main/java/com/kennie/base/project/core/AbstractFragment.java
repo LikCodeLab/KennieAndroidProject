@@ -15,7 +15,7 @@ import androidx.fragment.app.Fragment;
 /**
  * 所有Fragment的基类
  */
-public abstract class BaseFragment extends Fragment {
+public abstract class AbstractFragment extends Fragment {
 
     protected Activity mActivity;
 

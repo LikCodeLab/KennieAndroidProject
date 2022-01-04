@@ -32,7 +32,6 @@ dependencies {
     implementation depX.material
 
     // ARouter
-    // https://github.com/alibaba/ARouter
     implementation arouterX.arouter
     annotationProcessor arouterX.arouter_compiler
     //kapt arouterX.arouter_compiler
