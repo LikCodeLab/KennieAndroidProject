@@ -2,7 +2,7 @@ package com.kennie.router;
 
 /**
  * 路由相关配置
- * 用于组件开发中，ARouter跳转的统一路径注册
+ * 用于在组件化开发中,ARouter进行跳转的统一路径注册, 注册时请写好注释、标注界面功能业务
  */
 public class RouterPath {
 
@@ -21,7 +21,7 @@ public class RouterPath {
     //************************** 主功能模块 ****************************/
 
     /**
-     * 首页模块
+     * 首页组件
      */
     public static class Home {
         private static final String HOME = "/home";
@@ -29,9 +29,17 @@ public class RouterPath {
         public static final String PAGER_HOME = HOME + "/Home";
     }
 
+    /**
+     * 项目组件
+     */
+    public static class Project {
+        private static final String PROJECT = "/project";
+        /* 项目 */
+        public static final String PAGER_PROJECT = PROJECT + "/Project";
+    }
 
     /**
-     * 消息模块
+     * 消息组件
      */
     public static class Msg {
         private static final String MSG = "/msg";
@@ -40,7 +48,7 @@ public class RouterPath {
     }
 
     /**
-     * 用户模块
+     * 用户组件
      */
     public static class User {
         private static final String USER = "/user";
